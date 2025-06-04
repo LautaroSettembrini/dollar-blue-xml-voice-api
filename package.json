@@ -1,0 +1,31 @@
+{
+  "name": "dollar-blue-xml-api-demo",
+  "version": "1.0.0",
+  "description": "Demo microservice that scrapes blue dollar exchange rates and returns Twilio-compatible XML.",
+  "main": "dolar.js",
+  "scripts": {
+    "start": "node dolar.js"
+  },
+  "keywords": [
+    "dollar",
+    "exchange-rate",
+    "scraper",
+    "xml",
+    "twilio",
+    "demo",
+    "portfolio"
+  ],
+  "author": "Lautaro Settembrini",
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "cheerio": "^1.0.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "puppeteer": "^23.6.1",
+    "xmlbuilder": "^15.1.1"
+  }
+}
